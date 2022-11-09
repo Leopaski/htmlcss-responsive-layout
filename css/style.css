@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box ;
+}
+.header {
+    background-color: rgb(29, 52, 205);
+}
+.logo {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.boxes {
+    background-color:lightblue;
+}
+.row{
+    display: flex;
+    width: 100%;
+    flex-direction:column ;
+}
+.col-30 {
+    width: 100%;
+}
+.col-68{
+    width:100%;
+}
+.container {
+    width: 100%;
+}
