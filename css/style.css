@@ -5,25 +5,49 @@
 }
 .header {
     background-color: rgb(29, 52, 205);
+    width: 100%;
 }
 .logo {
     margin-left: 35px;
     margin-top: 15px;
 }
 .boxes {
-    background-color:lightblue;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lightblue;
+    margin: 20px;
 }
 .row{
     display: flex;
     width: 100%;
     flex-direction:column ;
+    justify-content: center;
 }
 .col-30 {
     width: 100%;
+    
 }
 .col-68{
     width:100%;
+    
+    
 }
 .container {
     width: 100%;
+    padding: 40px;
+}
+.development {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+#planning {
+    background-color: rgb(195, 123, 195);
+}
+#benefits {
+    background-color: rgb(195, 123, 195);
+}
+.col-50{
+    width: 100%;
+    padding: 10px;
 }
