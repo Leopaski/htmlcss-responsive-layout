@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding:0;
-    box-sizing:border-box ;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
 }
 .header {
     background-color: rgb(29, 52, 205);
@@ -42,12 +44,38 @@
     padding: 10px;
 }
 #planning {
-    background-color: rgb(195, 123, 195);
+    background-color: rgb(147, 82, 208);
 }
 #benefits {
-    background-color: rgb(195, 123, 195);
+    background-color: rgb(147, 82, 208);
 }
 .col-50{
     width: 100%;
     padding: 10px;
+}
+#testimonials .boxes {
+    background-color: rgb(147, 82, 208);
+}
+.white{
+    background-color: white;
+}
+#benefits .boxes {
+    background-color: white;
+}
+#about .boxes {
+    background-color: white;
+}
+.grey {
+    color: lightgrey;
+}
+.yellow {
+    color: rgb(225, 165, 16);
+}
+.purple {
+    background-color: rgb(147, 82, 208);
+    text-align: center;
+}
+footer {
+    color: white;
+    background-color: rgb(76, 76, 76);
 }
