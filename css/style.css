@@ -247,4 +247,16 @@ footer .text {
         width: 20%;
     }
 }
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 100%;
+    }
+    #argument .row{
+        justify-content: center;
+    }
+    .figure {
+        display: inline;
+    }
+    
+}
 
