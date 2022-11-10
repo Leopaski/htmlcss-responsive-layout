@@ -98,8 +98,10 @@ footer {
     text-align:center;
     line-height: 35px;
 }
-.code {
-    &#xf1c9;
+.texttestimonial {
+    padding: 3%;
+    text-align:center;
+    line-height: 35px;
 }
 .white-title {
     margin: 10%;
@@ -187,5 +189,62 @@ footer .text {
     color: rgb(29, 52, 205);
     width: 30%;
     height: 20%;
+}
+
+
+@media screen and (min-width:768px) {
+    .row {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    .col-68 {
+        max-width: 68%;
+        height: 100%;
+    }
+    .col-30 {
+        max-width:30%;
+        height: 100%;
+    }
+    .white-title {
+        margin: 5%;
+    }
+    .black-title {
+        margin: 5%;
+    }
+    .purple-title {
+        margin: 5%;
+    }
+    .face {
+        display: inline;
+        border-radius: 90%;
+        width: 25%;
+        height: 100%;
+        margin: 5%;
+        float: left;
+    }
+    .texttestimonial {
+        display: inline;
+        width: 70%;
+        margin-top: 10%;
+    }
+    #benefits .col-30 {
+        max-width: 45%;
+    }
+    #about .col-50 {
+        max-width: 50%;
+    }
+    #about .face {
+        display: block;
+        width: 50%;
+    }
+    #about .purple-title {
+        display: block;
+    }
+    .white-botton {
+        border-radius: 200px;
+        padding: 2%;
+        width: 20%;
+    }
 }
 
