@@ -3,7 +3,6 @@
     padding:0;
     box-sizing:border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
 }
 .header {
     background-color: rgb(29, 52, 205);
@@ -27,12 +26,9 @@
 }
 .col-30 {
     width: 100%;
-    
 }
 .col-68{
     width:100%;
-    
-    
 }
 .container {
     width: 100%;
@@ -67,6 +63,7 @@
 }
 .grey {
     color: lightgrey;
+    padding-top: 50px;
 }
 .yellow {
     color: rgb(225, 165, 16);
@@ -79,7 +76,7 @@ footer {
     color: white;
     background-color: rgb(76, 76, 76);
 }
-.phone {
+.figure {
     width: 45%;
     margin: 0 30%;
     display: block;
@@ -97,10 +94,98 @@ footer {
     text-align: center;
 }
 .text {
-    color: gray;
     padding: 3%;
-    text-align: center;
+    text-align:center;
+    line-height: 35px;
 }
 .code {
     &#xf1c9;
 }
+.white-title {
+    margin: 10%;
+    text-align: center;
+    color: white;
+}
+#planning {
+    color: white;
+    padding: 10px;
+}
+.black-title {
+    margin: 10%;
+    text-align: center;
+    color: black;
+}
+.developement {
+    color: black;
+    padding: 10px;
+    font-style: oblique;
+    background-color: white;
+    border-radius: 25px;
+    margin: 3%;
+}
+.purple-title {
+    color:rgb(147, 82, 208) ;
+    margin: 10%;
+    text-align: center;
+}
+.face {
+    display: block;
+    border-radius: 90%;
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+}
+.name {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+#testimonials .boxes{
+    color: white;
+}
+#benefits:first-child {
+    color: white;
+}
+.purplebotton {
+    background-color: rgb(147, 82, 208);
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    width: 50%;
+    border: 0ch;
+}
+#benefits .purple-title {
+    color:rgb(147, 82, 208) ;
+    margin: 10%;
+    text-align: left;
+}
+#benefits .boxes {
+    text-align: left;
+    padding: 5%;
+}
+.white-botton {
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    color: rgb(147, 82, 208);
+    width: 50%;
+    border: 0ch;
+}
+#bottom .text {
+    color: white;
+}
+footer .text {
+    line-height: normal;
+}
+.icon {
+    color: rgb(29, 52, 205);
+    width: 30%;
+    height: 20%;
+}
+
